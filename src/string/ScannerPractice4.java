@@ -27,10 +27,12 @@ public class ScannerPractice4 {
         //we will print out false
 
         System.out.println("Please enter the integer but smaller than first one");
-        int secondNumber = scanner.nextInt();
+
 
         boolean firstNumber = false;
-        boolean isFirstBigger = firstNumber>secondNumber;
+        boolean isFirstBigger = firstNumber;
+
+        int secondNumber = scanner.nextInt();
 
         System.out.println(isFirstBigger);
 

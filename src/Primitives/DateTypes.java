@@ -18,9 +18,12 @@ public class DateTypes {
 
         short number2 =32123;
 
-        int number3 = 456;
+        int number3 = 4_5_6;
         System.out.println(number3);
         long number4 = 123343563677L;
+        System.out.println(number4);
+
+        long myMoney =200_000_000_000L;
         //=====================
         float number5 =1.5f;
         System.out.println(number5);
@@ -29,8 +32,13 @@ public class DateTypes {
         System.out.println(number6);
         double number7 = 7;
         System.out.println(number7);
-        double number8 =98.9;
+        double number8 =9_8.9;
         System.out.println(number8);
+
+        byte b1, b2, b3, b4;
+
+        byte b5; short sh;
+
 
     }
 }

@@ -30,6 +30,10 @@ public class CharPractice {
 
         System.out.println(numberChar);
 
+        char randomChar = 2345;
+
+        System.out.println(randomChar);
+
 
 
 
