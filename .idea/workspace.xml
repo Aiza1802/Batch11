@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ea9b788-f295-4304-a178-03dc320e23fd" name="Changes" comment="commit" />
+    <list default="true" id="7ea9b788-f295-4304-a178-03dc320e23fd" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +61,7 @@
       <recent name="$PROJECT_DIR$/out" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BooleanPractice">
+  <component name="RunManager" selected="Application.HelloWorld1">
     <configuration name="BooleanPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Primitives.BooleanPractice" />
       <module name="Batch11" />
@@ -99,25 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.PracticeChar" />
+    <configuration name="HelloWorld1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first.HelloWorld1" />
       <module name="Batch11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScannerPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ScannerPractice" />
-      <module name="Batch11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,23 +153,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VariablePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first.VariablePractice" />
+      <module name="Batch11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BooleanPractice" />
       <item itemvalue="Application.CastingPractice" />
       <item itemvalue="Application.DateTypes" />
-      <item itemvalue="Application.PracticeChar" />
-      <item itemvalue="Application.ScannerPractice" />
+      <item itemvalue="Application.HelloWorld1" />
       <item itemvalue="Application.ScannerPractice2" />
       <item itemvalue="Application.ScannerPractice3" />
       <item itemvalue="Application.ScannerPractice4" />
+      <item itemvalue="Application.VariablePractice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorld1" />
+        <item itemvalue="Application.VariablePractice" />
         <item itemvalue="Application.ScannerPractice4" />
         <item itemvalue="Application.ScannerPractice3" />
         <item itemvalue="Application.ScannerPractice2" />
-        <item itemvalue="Application.ScannerPractice" />
-        <item itemvalue="Application.PracticeChar" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +249,15 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Batch11$ArrayToArrayList.ic" NAME="ArrayToArrayList Coverage Results" MODIFIED="1641714651133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>array.ArrayList.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Batch11$CompoundAssignment.ic" NAME="CompoundAssignment Coverage Results" MODIFIED="1638501407376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Primitives.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Batch11$Aiza.ic" NAME="Aiza Coverage Results" MODIFIED="1637735681344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Batch11$FlowerTest.ic" NAME="FlowerTest Coverage Results" MODIFIED="1641708883433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>array.ArrayList.*</FILTER>
+    </SUITE>
   </component>
 </project>
